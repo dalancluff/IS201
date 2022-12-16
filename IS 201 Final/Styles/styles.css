@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: beige;
+    background-color: black;
+   }
+   h1 {
+        color:blanchedalmond;
+   }
+   a {
+        font-family: cursive;
+        color: rgb(255, 100, 100); text-decoration: none;
+   }
+
+   a:hover{
+        text-decoration: underline; font-size: large;
+        color: lightskyblue;
+   }
+   a:visited{
+        color: lightskyblue;
+   }
+   c {
+        font-family: cursive;
+        color: gold;
+        font-style: oblique;
+   }
+   li {
+        font-weight: normal;
+   }
+   .resumeListHeading {
+     color: lightskyblue;
+        font-weight: bolder;
+   }
+   p {
+        color: gold;
+   }
+   .justify{text-align: justify;}
+
+    .homebg{
+        background-image: url(../Images/Spaace.jpeg);
+        
+   }
+   .bold{font-weight: bolder;}
+
+   .box1{
+        border-width: 1px;
+        border-style: solid;
+        border-color: lightskyblue;
+   }
+   
+   .box2{
+        padding: 5px ;
+   }
+
+   .box3{
+        margin: 50px;
+   }
+
+   .listoff{
+     font-style: oblique;
+     color: antiquewhite;
+   }
+
+   g {
+     color: gold;
+     font-size: medium;
+   }

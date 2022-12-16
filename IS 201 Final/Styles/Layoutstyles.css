@@ -1,0 +1,82 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    .common {
+    
+    border: 2px solid grey;
+    position: absolute;
+
+    }
+
+    .header {
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        height: 100px;
+        z-index: 3;
+        border-bottom: solid gray;
+        border-top: black;
+        border-left: black;
+        border-right: black;
+
+    }
+
+    .leftmenu {
+        top: 114px;
+        left: 5px;
+        width: 100px;
+        bottom: 80px;
+        z-index: 1;
+        padding-top: 50px;
+        border-right: solid gold;
+        border-top: solid gold;
+        border-left: gold;
+        padding-right: 5px;
+        border-bottom: gold;
+        
+        
+    }
+
+    
+
+    .mainbody {
+        top: 114px;
+        left: 118px;
+        right: 118px;
+        bottom: 0px;
+        border-top: solid gold;
+        border-bottom: gold;
+
+    }
+
+    .rightmenu {
+        top: 114px;
+        right: 5px;
+        width: 100px;
+        bottom: 80px;
+        font-size: 15px;
+        border-left: solid gold;
+        padding-left: 5px;
+        padding-top: 5px;
+        border-right: gold;
+        border-bottom: gold;
+
+    }
+
+    .footer {
+        height: 25px;
+        bottom: 5px;
+        left: 5px;
+        right: 5px;
+        font-size: 8px;
+        text-align: center;
+        padding-top: 15px;
+        position: fixed;
+        z-index: 2;
+
+    }
+
+    .subheader {
+        float: right;
+    }
