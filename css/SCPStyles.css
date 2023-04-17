@@ -1,0 +1,113 @@
+body { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.header {
+    top: 2px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    font-size: 70px;
+    font-family: 'Bauhaus Bold BT';
+    text-indent: 220px;
+    z-index: 2;
+    border-bottom: solid thick gray;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    background-image: url(../IS_201_Final/Images/SCP\ Logo.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    position: fixed;
+    background-color: white;
+    
+
+}
+
+.top {
+    font-size: small;
+    z-index: 3;
+    position: relative;
+    position: fixed;
+    right: 5px;
+
+}
+    
+.common {
+
+position: absolute;
+
+}
+
+
+.leftmenu {
+    top: 112px;
+    left: 5px;
+    width: 100px;
+    bottom: 80px;
+    z-index: 1;
+    border-right: solid rgb(0, 0, 0);
+    border-top: solid darkred;
+    border-left: darkred;
+    padding-right: 5px;
+    border-bottom: darkred;
+    position: fixed;
+    
+    
+}
+
+.mainbody {
+    top: 112px;
+    left: 118px;
+    right: 118px;
+    bottom: 0px;
+    border-top: solid darkred;
+    border-bottom: darkred;
+
+}
+
+.rightmenu {
+    top: 112px;
+    right: 5px;
+    width: 100px;
+    bottom: 80px;
+    font-size: 15px;
+    border-left: solid rgb(0, 0, 0);
+    border-top: solid darkred;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-right: darkred;
+    border-bottom: darkred;
+    position:fixed;
+
+}
+
+.footer {
+    height: 25px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    font-size: 8px;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+    z-index: 2;
+
+}
+
+.subheader {
+    float: right;
+}
+
+h1 {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    text-indent: 400px;
+    
+}
+
+b:visited{
+    color: black;
+}
